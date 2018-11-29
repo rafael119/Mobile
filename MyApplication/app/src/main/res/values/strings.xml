@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pill-Mobile</string>
+    <string name="app_registro_medicamentos">Registra medicamentos</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

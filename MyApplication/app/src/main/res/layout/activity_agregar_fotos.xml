@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".agregarFotos">
+
+    <ImageView
+        android:id="@+id/imgenEnvase"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnEnvase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Seleccionar foto del envase"
+        android:background="@drawable/bg_calen"
+        android:textColor="@color/colorAccent"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/imagnMedicamento"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnMedicamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_calen"
+        android:textColor="@color/colorAccent"
+        android:text="Seleccionar la foto del medicamento"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_calen"
+        android:textColor="@color/colorAccent"
+        android:text="Continuar"
+        android:textSize="10dp" />
+
+</LinearLayout>

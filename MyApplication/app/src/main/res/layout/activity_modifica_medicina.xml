@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".agregarMedicamentos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Modificar Medicamento"
+        android:textColor="#E65100"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/idMedicamento"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="Id medicamento (Numerico)"
+            android:inputType="number"
+            android:textColor="#E65100"
+            android:textColorHint="#EF6C00" />
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_calen"
+            android:text="Buscar"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/nombreMedicamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre medicamento"
+        android:gravity="center"
+        android:textColorHint="#EF6C00"
+        android:textColor="#E65100"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/padecimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Padecimiento"
+        android:textColorHint="#EF6C00"
+        android:textColor="#E65100"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/dosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#EF6C00"
+        android:gravity="center"
+        android:textColor="#E65100"
+        android:hint="Dosis"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/descripcionMedicamento"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textColorHint="#EF6C00"
+        android:textColor="#E65100"
+        android:hint="Descripción"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/nombreDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColorHint="#EF6C00"
+        android:textColor="#E65100"
+        android:hint="Doctor"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/telDoctor"
+        android:layout_width="match_parent"
+        android:textColorHint="#EF6C00"
+        android:textColor="#E65100"
+        android:layout_height="40dp"
+        android:hint="Teléfono doctor"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E65100"
+        android:layout_gravity="center"
+        android:text="Recordar medicamento cada"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/horasMedicamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Horas"
+            android:inputType="number"
+            android:textColor="#E65100"
+            android:textColorHint="#EF6C00" />
+
+        <EditText
+            android:id="@+id/minutosMedicamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Minutos"
+            android:inputType="number"
+            android:textColor="#E65100"
+            android:textColorHint="#EF6C00" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnModficar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_calen"
+        android:text="Modificar"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

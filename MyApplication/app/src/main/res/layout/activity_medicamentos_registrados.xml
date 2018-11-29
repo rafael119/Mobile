@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".medicamentosRegistrados">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Administración de medicamentos"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:background="@drawable/bg_calen"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Mostrar medicamentos"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Modificar medicamentos"
+        android:background="@drawable/bg_calen"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Eliminar medicamentos"
+        android:background="@drawable/bg_calen"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:textSize="10dp" />
+
+</LinearLayout>
